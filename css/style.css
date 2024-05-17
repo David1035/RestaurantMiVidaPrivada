@@ -1,9 +1,10 @@
-* {
+body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: rgb(178, 142, 212);
+    background-color: rgb(233, 235, 109);
+    
 }
