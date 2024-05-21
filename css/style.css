@@ -4,7 +4,51 @@ body{
     padding: 0;
 }
 
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(191, 187, 194);
+}
+
+.navbar__container {
+    width: 80px;
+    display: grid;
+    align-content: center;
+    margin: 3px;
+}
+
+.navbar__container-logo {
+    width: 100%;
+    border-radius: 60%;
+}
+
+.navbar__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar__items-buttom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    margin: auto 3px;
+    background-color: rgb(181, 213, 160);
+    border-radius: 10px;
+    min-height: 30px;
+    
+    
+}
+
+
+
+
 header {
+    width: 100%;
+    height: 300px;
     background-color: rgb(233, 235, 109);
     
 }
