@@ -89,6 +89,10 @@ body{
 }
 .right-sidebar {
     background-color: bisque;
+    width: 100%;
+}
+.right-sidebar img {
+    width: 95%;
 }
 .footer {
     grid-column: 1/5;
