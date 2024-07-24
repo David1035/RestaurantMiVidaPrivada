@@ -1,3 +1,65 @@
 {
-    "liveServer.settings.port": 5501
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.tokenColorCustomizations": {
+        "[Default Light Modern]": {},
+        "textMateRules": [
+            {
+                "scope": "entity.name.tag.html",
+                "settings": {
+                    "foreground": "#FDFEFE" // Cambia este valor al color que prefieras
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name.html",
+                "settings": {
+                    "foreground": "#E73C71" // Cambia este valor al color que prefieras
+                }
+            },
+            {
+                "scope": "punctuation.definition.tag.html",
+                "settings": {
+                    "foreground": "#C718A9" // Cambia el color de <>
+                }
+            },
+            {
+                "scope": "string.quoted.double.html",
+                "settings": {
+                    "foreground": "#18C75C" // Cambia el color de ""
+                }
+            },
+            {
+                "scope": "punctuation.definition.string.begin.html, punctuation.definition.string.end.html",
+                "settings": {
+                    "foreground": "#18C7A0" // Cambia el color de las comillas en las cadenas
+                }
+            },
+            {
+                "scope": "punctuation.definition.parameters.begin.html, punctuation.definition.parameters.end.html",
+                "settings": {
+                    "foreground": "#0000FF" // Cambia el color de ()
+                }
+            }
+        ]
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#282c34",
+        "editor.foreground": "#da16af",
+        "editor.lineHighlightBackground": "#2c313c",
+        "editorLineNumber.foreground": "#FFFFFF",
+        "activityBar.background": "#3F024B",
+        "sideBar.background": "#BD1B41",
+        "titleBar.activeBackground": "#5E1325",
+        "titleBar.activeForeground": "#4B0727",
+        "statusBar.background": "#21252b",
+        "statusBar.foreground": "#C63A91",
+        "tab.activeBackground": "#810F56",
+        "tab.activeForeground": "#FA56F6",
+        "editor.selectionBackground": "#D83D61",
+        "editor.selectionHighlightBorder": "#88275c",
+        "editorCursor.foreground": "#ff528c",
+        "editorGroupHeader.tabsBackground": "#3F0E49",
+        "editorGroup.border": "#3F024B"
+    }
 }

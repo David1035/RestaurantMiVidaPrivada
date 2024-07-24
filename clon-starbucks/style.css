@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-container{
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+
+}
+.container-nav{
+    width: 100%;
+    max-width: 1240px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    background-image: url('https://www.starbucks.com.co/static/images/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+.list-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.item-left{
+    width: 100%;
+    display: flex;
+}
+.item-left ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.caja-texto{
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.texto{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.item-right{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.item-right ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 10px;
+}
+.ubicacion {
+    background-image: url('https://www.starbucks.com.co/static/images/stores.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
